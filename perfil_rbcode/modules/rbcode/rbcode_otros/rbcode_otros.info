@@ -1,0 +1,12 @@
+name = RBcode otros
+description = Activa modulos opcionales
+core = 7.x
+package = RBcode
+version = 7.x-1.0
+project = rbcode_otros
+dependencies[] = eva
+dependencies[] = profile2
+dependencies[] = profile2_page
+dependencies[] = webform
+features[features_api][] = api:2
+project path = profiles/perfil_rbcode/modules/rbcode

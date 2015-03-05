@@ -1,0 +1,13 @@
+name = RBcode desarrollo
+description = Activa modulos utiles para el desarrollo
+core = 7.x
+package = RBcode
+version = 7.x-1.0
+project = rbcode_desarrollo
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = module_builder
+dependencies[] = rest_server
+dependencies[] = services
+features[features_api][] = api:2
+project path = profiles/perfil_rbcode/modules/rbcode

@@ -1,0 +1,44 @@
+name = Perfil de RBcode
+description = Perfil de instalacion de RBcode.
+version = 0.1
+core = 7.x
+
+; Modulos del core
+
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = locale
+dependencies[] = update
+
+; Modulos adicionales
+
+dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
+dependencies[] = backup_migrate
+dependencies[] = ctools
+dependencies[] = variable
+dependencies[] = i18n
+;dependencies[] = l10n_update
+dependencies[] = libraries
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = wysiwyg
+dependencies[] = module_filter
+dependencies[] = features
+dependencies[] = metatag
+dependencies[] = xmlsitemap

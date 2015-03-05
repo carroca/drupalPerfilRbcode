@@ -1,0 +1,16 @@
+name = RBcode administracion
+description = Activa modulos utiles para la administracion del sitio
+core = 7.x
+package = RBcode
+version = 7.x-1.0
+project = rbcode_administracion
+dependencies[] = aes
+dependencies[] = coffee
+dependencies[] = css_emimage
+dependencies[] = db_maintenance
+dependencies[] = elysia_cron
+dependencies[] = jquery_update
+dependencies[] = masquerade
+dependencies[] = mollom
+features[features_api][] = api:2
+project path = profiles/perfil_rbcode/modules/rbcode

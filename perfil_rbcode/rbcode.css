@@ -1,0 +1,7 @@
+body.maintenance-page #logo {
+  background:transparent url(rbcode.png) no-repeat top left;
+  height:0;
+  overflow:hidden;
+  padding-top: 64px; /* height of logo  */
+  width: 233px; /* width of logo  */
+}

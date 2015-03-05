@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rbcode_eventos feature.
+ */
+
+include_once 'rbcode_eventos.features.inc';
